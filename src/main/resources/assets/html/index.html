@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+	<script src="js/robot.js" type="text/javascript"></script>
+	<object>
+		<embed type="application/x-vlc-plugin"
+			pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2"
+			width="640" height="480" id="vlc" loop="yes" autoplay="yes"
+			target="http://spider.exsolvi.se:8088/cam.ogg"></embed>
+	</object>
+	<form>
+		Använd piltangenterna för att styra<br /> <span id="msg-keydown"></span>
+		<br /> <span id="msg-keyup"></span>
+</body>
+</html>
